@@ -1,0 +1,15 @@
+{
+    "name": "build",
+    "version": "1.0.0",
+    "scripts": {
+        "webhook": "node parsewebhook.js"
+    },
+    "type": "module",
+    "dependencies": {
+        "adaptive-expressions": "^4.14.1",
+        "adaptivecards": "^2.10.0",
+        "adaptivecards-templating": "^2.2.0",
+        "require": "^2.4.20",
+        "requirejs": "^2.3.6"
+    }
+}

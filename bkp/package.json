@@ -1,0 +1,16 @@
+{
+    "name": "build",
+    "version": "1.0.0",
+    "scripts": {
+        "webhook": "node msr-msteam-webhook.js",
+        "webhookfile": "node msr-msteam-webhook2.js"
+    },
+    "type": "module",
+    "dependencies": {
+        "adaptive-expressions": "^4.14.1",
+        "adaptivecards": "^2.10.0",
+        "adaptivecards-templating": "^2.2.0",
+        "require": "^2.4.20",
+        "requirejs": "^2.3.6"
+    }
+}
