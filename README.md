@@ -1,5 +1,5 @@
 # webhookrelay-dtr-teams
-A test script to parse JSON webhook resposne from DTR to Adaptive Card Format
+A test script to parse JSON webhook resposne from DTR tag_push event to an Adaptive Card Format understood my MS Teams.
 
 How-to:
 
