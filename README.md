@@ -5,5 +5,5 @@ How-to:
 
 ```
 cd parsewebhook
-docker run -i --rm -v template.json:/parsewebhook/template.json -v ./parsewebhook.js^Cebhookdata.json:/parsewebhook/webhookdata.json sharmapr/parsewebhook
+docker run -i --rm -v $PWD/parsewebhook/template.json:/parsewebhook/template.json -v $PWD/parsewebhook/webhookdata.json:/parsewebhook/webhookdata.json sharmapr/parsewebhook
 ```
