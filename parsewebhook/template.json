@@ -5,7 +5,7 @@
 		        "body": [
 				        {
 						            "type": "TextBlock",
-							                "text": "${push_data.pusher} pushed new tag ${repository.repo_name}:${push_data.tag}" ,
+							                "text": "${push_data.pusher} pushed a new tag ${repository.repo_name}:${push_data.tag}" ,
 									            "wrap": true
 										            }
 											        ]
